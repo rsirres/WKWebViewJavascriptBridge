@@ -90,6 +90,16 @@ setupWKWebViewJavascriptBridge(function(bridge) {
 
 # 安装
 
+### Swift Package
+
+> 选择 File > Swift Packages > Add Package Dependency 输入此 REPO 的 URL。你也可以跳转到 Target General 面板，在“Frameworks, Libraries, and Embedded Content”处点击 + 按钮。在“Choose frameworks and libraries to add”对话框，选择 Add Other > Add Package Dependency（[点这里了解更多](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app?language=swift)）。
+
+![](Rources/search_with_repo_url.png)
+
+> Note: 因为在 Swift Packages 出现前的历史版本原因，这个 Package 的起始版本为“1.2.1”。这样做的主要原因是为了对齐原有版本号并使依赖变动最小化。
+
+![](Rources/search_result.png)
+
 ### Cocoapods
 
 1. 在你的 Podfile 中添加 `pod 'WKWebViewJavascriptBridge', '~> 1.2.0'` 。
