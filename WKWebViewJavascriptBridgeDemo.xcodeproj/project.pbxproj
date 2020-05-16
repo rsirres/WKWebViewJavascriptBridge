@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCAAE38B246FF9BF007757B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAAE38A246FF9BF007757B4 /* AppDelegate.swift */; };
+		BCAAE38D246FF9BF007757B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAAE38C246FF9BF007757B4 /* SceneDelegate.swift */; };
+		BCAAE38F246FF9BF007757B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAAE38E246FF9BF007757B4 /* ViewController.swift */; };
+		BCAAE392246FF9BF007757B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCAAE390246FF9BF007757B4 /* Main.storyboard */; };
+		BCAAE394246FF9C0007757B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCAAE393246FF9C0007757B4 /* Assets.xcassets */; };
+		BCAAE397246FF9C0007757B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCAAE395246FF9C0007757B4 /* LaunchScreen.storyboard */; };
+		BCAAE3A2246FF9C1007757B4 /* WKWebViewJavascriptBridgeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAAE3A1246FF9C1007757B4 /* WKWebViewJavascriptBridgeDemoTests.swift */; };
+		BCAAE3AD246FF9C1007757B4 /* WKWebViewJavascriptBridgeDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAAE3AC246FF9C1007757B4 /* WKWebViewJavascriptBridgeDemoUITests.swift */; };
+		BCAAE3BC246FFA4B007757B4 /* Demo.html in Resources */ = {isa = PBXBuildFile; fileRef = BCAAE3BB246FFA4B007757B4 /* Demo.html */; };
+		BCAAE3BF246FFA7A007757B4 /* WKWebViewJavascriptBridge in Frameworks */ = {isa = PBXBuildFile; productRef = BCAAE3BE246FFA7A007757B4 /* WKWebViewJavascriptBridge */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCAAE39E246FF9C1007757B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCAAE37F246FF9BF007757B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCAAE386246FF9BF007757B4;
+			remoteInfo = WKWebViewJavascriptBridgeDemo;
+		};
+		BCAAE3A9246FF9C1007757B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCAAE37F246FF9BF007757B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCAAE386246FF9BF007757B4;
+			remoteInfo = WKWebViewJavascriptBridgeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCAAE387246FF9BF007757B4 /* WKWebViewJavascriptBridgeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebViewJavascriptBridgeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAAE38A246FF9BF007757B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCAAE38C246FF9BF007757B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BCAAE38E246FF9BF007757B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCAAE391246FF9BF007757B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCAAE393246FF9C0007757B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCAAE396246FF9C0007757B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCAAE398246FF9C0007757B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCAAE39D246FF9C1007757B4 /* WKWebViewJavascriptBridgeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebViewJavascriptBridgeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAAE3A1246FF9C1007757B4 /* WKWebViewJavascriptBridgeDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewJavascriptBridgeDemoTests.swift; sourceTree = "<group>"; };
+		BCAAE3A3246FF9C1007757B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCAAE3A8246FF9C1007757B4 /* WKWebViewJavascriptBridgeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebViewJavascriptBridgeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAAE3AC246FF9C1007757B4 /* WKWebViewJavascriptBridgeDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewJavascriptBridgeDemoUITests.swift; sourceTree = "<group>"; };
+		BCAAE3AE246FF9C1007757B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCAAE3BA246FFA05007757B4 /* WKWebViewJavascriptBridge */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WKWebViewJavascriptBridge; path = ../WKWebViewJavascriptBridge; sourceTree = "<group>"; };
+		BCAAE3BB246FFA4B007757B4 /* Demo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Demo.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCAAE384246FF9BF007757B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAAE3BF246FFA7A007757B4 /* WKWebViewJavascriptBridge in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAAE39A246FF9C1007757B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAAE3A5246FF9C1007757B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCAAE37E246FF9BF007757B4 = {
+			isa = PBXGroup;
+			children = (
+				BCAAE389246FF9BF007757B4 /* WKWebViewJavascriptBridgeDemo */,
+				BCAAE3A0246FF9C1007757B4 /* WKWebViewJavascriptBridgeDemoTests */,
+				BCAAE3AB246FF9C1007757B4 /* WKWebViewJavascriptBridgeDemoUITests */,
+				BCAAE388246FF9BF007757B4 /* Products */,
+				BCAAE3BA246FFA05007757B4 /* WKWebViewJavascriptBridge */,
+				BCAAE3BD246FFA7A007757B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCAAE388246FF9BF007757B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCAAE387246FF9BF007757B4 /* WKWebViewJavascriptBridgeDemo.app */,
+				BCAAE39D246FF9C1007757B4 /* WKWebViewJavascriptBridgeDemoTests.xctest */,
+				BCAAE3A8246FF9C1007757B4 /* WKWebViewJavascriptBridgeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCAAE389246FF9BF007757B4 /* WKWebViewJavascriptBridgeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BCAAE3BB246FFA4B007757B4 /* Demo.html */,
+				BCAAE38A246FF9BF007757B4 /* AppDelegate.swift */,
+				BCAAE38C246FF9BF007757B4 /* SceneDelegate.swift */,
+				BCAAE38E246FF9BF007757B4 /* ViewController.swift */,
+				BCAAE390246FF9BF007757B4 /* Main.storyboard */,
+				BCAAE393246FF9C0007757B4 /* Assets.xcassets */,
+				BCAAE395246FF9C0007757B4 /* LaunchScreen.storyboard */,
+				BCAAE398246FF9C0007757B4 /* Info.plist */,
+			);
+			path = WKWebViewJavascriptBridgeDemo;
+			sourceTree = "<group>";
+		};
+		BCAAE3A0246FF9C1007757B4 /* WKWebViewJavascriptBridgeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCAAE3A1246FF9C1007757B4 /* WKWebViewJavascriptBridgeDemoTests.swift */,
+				BCAAE3A3246FF9C1007757B4 /* Info.plist */,
+			);
+			path = WKWebViewJavascriptBridgeDemoTests;
+			sourceTree = "<group>";
+		};
+		BCAAE3AB246FF9C1007757B4 /* WKWebViewJavascriptBridgeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCAAE3AC246FF9C1007757B4 /* WKWebViewJavascriptBridgeDemoUITests.swift */,
+				BCAAE3AE246FF9C1007757B4 /* Info.plist */,
+			);
+			path = WKWebViewJavascriptBridgeDemoUITests;
+			sourceTree = "<group>";
+		};
+		BCAAE3BD246FFA7A007757B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCAAE386246FF9BF007757B4 /* WKWebViewJavascriptBridgeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAAE3B1246FF9C1007757B4 /* Build configuration list for PBXNativeTarget "WKWebViewJavascriptBridgeDemo" */;
+			buildPhases = (
+				BCAAE383246FF9BF007757B4 /* Sources */,
+				BCAAE384246FF9BF007757B4 /* Frameworks */,
+				BCAAE385246FF9BF007757B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WKWebViewJavascriptBridgeDemo;
+			packageProductDependencies = (
+				BCAAE3BE246FFA7A007757B4 /* WKWebViewJavascriptBridge */,
+			);
+			productName = WKWebViewJavascriptBridgeDemo;
+			productReference = BCAAE387246FF9BF007757B4 /* WKWebViewJavascriptBridgeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCAAE39C246FF9C1007757B4 /* WKWebViewJavascriptBridgeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAAE3B4246FF9C1007757B4 /* Build configuration list for PBXNativeTarget "WKWebViewJavascriptBridgeDemoTests" */;
+			buildPhases = (
+				BCAAE399246FF9C1007757B4 /* Sources */,
+				BCAAE39A246FF9C1007757B4 /* Frameworks */,
+				BCAAE39B246FF9C1007757B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCAAE39F246FF9C1007757B4 /* PBXTargetDependency */,
+			);
+			name = WKWebViewJavascriptBridgeDemoTests;
+			productName = WKWebViewJavascriptBridgeDemoTests;
+			productReference = BCAAE39D246FF9C1007757B4 /* WKWebViewJavascriptBridgeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCAAE3A7246FF9C1007757B4 /* WKWebViewJavascriptBridgeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAAE3B7246FF9C1007757B4 /* Build configuration list for PBXNativeTarget "WKWebViewJavascriptBridgeDemoUITests" */;
+			buildPhases = (
+				BCAAE3A4246FF9C1007757B4 /* Sources */,
+				BCAAE3A5246FF9C1007757B4 /* Frameworks */,
+				BCAAE3A6246FF9C1007757B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCAAE3AA246FF9C1007757B4 /* PBXTargetDependency */,
+			);
+			name = WKWebViewJavascriptBridgeDemoUITests;
+			productName = WKWebViewJavascriptBridgeDemoUITests;
+			productReference = BCAAE3A8246FF9C1007757B4 /* WKWebViewJavascriptBridgeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCAAE37F246FF9BF007757B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = lision;
+				TargetAttributes = {
+					BCAAE386246FF9BF007757B4 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					BCAAE39C246FF9C1007757B4 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = BCAAE386246FF9BF007757B4;
+					};
+					BCAAE3A7246FF9C1007757B4 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = BCAAE386246FF9BF007757B4;
+					};
+				};
+			};
+			buildConfigurationList = BCAAE382246FF9BF007757B4 /* Build configuration list for PBXProject "WKWebViewJavascriptBridgeDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCAAE37E246FF9BF007757B4;
+			productRefGroup = BCAAE388246FF9BF007757B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCAAE386246FF9BF007757B4 /* WKWebViewJavascriptBridgeDemo */,
+				BCAAE39C246FF9C1007757B4 /* WKWebViewJavascriptBridgeDemoTests */,
+				BCAAE3A7246FF9C1007757B4 /* WKWebViewJavascriptBridgeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCAAE385246FF9BF007757B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAAE397246FF9C0007757B4 /* LaunchScreen.storyboard in Resources */,
+				BCAAE3BC246FFA4B007757B4 /* Demo.html in Resources */,
+				BCAAE394246FF9C0007757B4 /* Assets.xcassets in Resources */,
+				BCAAE392246FF9BF007757B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAAE39B246FF9C1007757B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAAE3A6246FF9C1007757B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCAAE383246FF9BF007757B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAAE38F246FF9BF007757B4 /* ViewController.swift in Sources */,
+				BCAAE38B246FF9BF007757B4 /* AppDelegate.swift in Sources */,
+				BCAAE38D246FF9BF007757B4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAAE399246FF9C1007757B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAAE3A2246FF9C1007757B4 /* WKWebViewJavascriptBridgeDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAAE3A4246FF9C1007757B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAAE3AD246FF9C1007757B4 /* WKWebViewJavascriptBridgeDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCAAE39F246FF9C1007757B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCAAE386246FF9BF007757B4 /* WKWebViewJavascriptBridgeDemo */;
+			targetProxy = BCAAE39E246FF9C1007757B4 /* PBXContainerItemProxy */;
+		};
+		BCAAE3AA246FF9C1007757B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCAAE386246FF9BF007757B4 /* WKWebViewJavascriptBridgeDemo */;
+			targetProxy = BCAAE3A9246FF9C1007757B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCAAE390246FF9BF007757B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCAAE391246FF9BF007757B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCAAE395246FF9C0007757B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCAAE396246FF9C0007757B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCAAE3AF246FF9C1007757B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCAAE3B0246FF9C1007757B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCAAE3B2246FF9C1007757B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7HG37N8SR;
+				INFOPLIST_FILE = WKWebViewJavascriptBridgeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.lision.WKWebViewJavascriptBridgeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCAAE3B3246FF9C1007757B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7HG37N8SR;
+				INFOPLIST_FILE = WKWebViewJavascriptBridgeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.lision.WKWebViewJavascriptBridgeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCAAE3B5246FF9C1007757B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7HG37N8SR;
+				INFOPLIST_FILE = WKWebViewJavascriptBridgeDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.lision.WKWebViewJavascriptBridgeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKWebViewJavascriptBridgeDemo.app/WKWebViewJavascriptBridgeDemo";
+			};
+			name = Debug;
+		};
+		BCAAE3B6246FF9C1007757B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7HG37N8SR;
+				INFOPLIST_FILE = WKWebViewJavascriptBridgeDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.lision.WKWebViewJavascriptBridgeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKWebViewJavascriptBridgeDemo.app/WKWebViewJavascriptBridgeDemo";
+			};
+			name = Release;
+		};
+		BCAAE3B8246FF9C1007757B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7HG37N8SR;
+				INFOPLIST_FILE = WKWebViewJavascriptBridgeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.lision.WKWebViewJavascriptBridgeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WKWebViewJavascriptBridgeDemo;
+			};
+			name = Debug;
+		};
+		BCAAE3B9246FF9C1007757B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7HG37N8SR;
+				INFOPLIST_FILE = WKWebViewJavascriptBridgeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.me.lision.WKWebViewJavascriptBridgeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WKWebViewJavascriptBridgeDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCAAE382246FF9BF007757B4 /* Build configuration list for PBXProject "WKWebViewJavascriptBridgeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAAE3AF246FF9C1007757B4 /* Debug */,
+				BCAAE3B0246FF9C1007757B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAAE3B1246FF9C1007757B4 /* Build configuration list for PBXNativeTarget "WKWebViewJavascriptBridgeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAAE3B2246FF9C1007757B4 /* Debug */,
+				BCAAE3B3246FF9C1007757B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAAE3B4246FF9C1007757B4 /* Build configuration list for PBXNativeTarget "WKWebViewJavascriptBridgeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAAE3B5246FF9C1007757B4 /* Debug */,
+				BCAAE3B6246FF9C1007757B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAAE3B7246FF9C1007757B4 /* Build configuration list for PBXNativeTarget "WKWebViewJavascriptBridgeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAAE3B8246FF9C1007757B4 /* Debug */,
+				BCAAE3B9246FF9C1007757B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BCAAE3BE246FFA7A007757B4 /* WKWebViewJavascriptBridge */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WKWebViewJavascriptBridge;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BCAAE37F246FF9BF007757B4 /* Project object */;
+}
