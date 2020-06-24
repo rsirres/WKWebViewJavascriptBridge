@@ -36,6 +36,11 @@
 		bridge.registerHandler('testJavascriptHandler', function(data, responseCallback) {
 			log('iOS called testJavascriptHandler with', data, 'native')
 			var responseData = { 'Javascript Says':'Right back atcha!' }
+
+			data = data.map( function(item){ return atob(item) } );
+
+			log(data);
+
 			log('JS responding with', responseData, 'native')
 			responseCallback(responseData)
 		})
